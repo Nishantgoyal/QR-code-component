@@ -1,0 +1,40 @@
+* {
+    font-family: Outfit;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 280px;
+    border-radius: 5%;
+    padding: 18px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
